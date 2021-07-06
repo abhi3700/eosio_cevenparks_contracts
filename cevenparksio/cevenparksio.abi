@@ -1,0 +1,336 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.2",
+    "types": [],
+    "structs": [
+        {
+            "name": "addparkdata",
+            "base": "",
+            "fields": [
+                {
+                    "name": "park_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "tree_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "lon",
+                    "type": "float64"
+                },
+                {
+                    "name": "lat",
+                    "type": "float64"
+                },
+                {
+                    "name": "species",
+                    "type": "string"
+                },
+                {
+                    "name": "latin_species",
+                    "type": "string"
+                },
+                {
+                    "name": "year_planted",
+                    "type": "uint16"
+                },
+                {
+                    "name": "diameter_canopy",
+                    "type": "float32"
+                },
+                {
+                    "name": "dbh",
+                    "type": "float32"
+                },
+                {
+                    "name": "height",
+                    "type": "float32"
+                },
+                {
+                    "name": "biomass",
+                    "type": "float32"
+                }
+            ]
+        },
+        {
+            "name": "delparktree",
+            "base": "",
+            "fields": [
+                {
+                    "name": "park_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "tree_id",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "deluser",
+            "base": "",
+            "fields": [
+                {
+                    "name": "username",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "entrexitpark",
+            "base": "",
+            "fields": [
+                {
+                    "name": "username",
+                    "type": "name"
+                },
+                {
+                    "name": "park_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "is_checked_in",
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "name": "extended_symbol",
+            "base": "",
+            "fields": [
+                {
+                    "name": "sym",
+                    "type": "symbol"
+                },
+                {
+                    "name": "contract",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "fund",
+            "base": "",
+            "fields": [
+                {
+                    "name": "username",
+                    "type": "name"
+                },
+                {
+                    "name": "deposit_qty",
+                    "type": "pair_extended_symbol_uint64[]"
+                }
+            ]
+        },
+        {
+            "name": "login",
+            "base": "",
+            "fields": [
+                {
+                    "name": "username",
+                    "type": "name"
+                },
+                {
+                    "name": "password_hash",
+                    "type": "checksum256"
+                }
+            ]
+        },
+        {
+            "name": "logout",
+            "base": "",
+            "fields": [
+                {
+                    "name": "username",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "pair_extended_symbol_uint64",
+            "base": "",
+            "fields": [
+                {
+                    "name": "key",
+                    "type": "extended_symbol"
+                },
+                {
+                    "name": "value",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "parkinfo",
+            "base": "",
+            "fields": [
+                {
+                    "name": "tree_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "lon",
+                    "type": "float64"
+                },
+                {
+                    "name": "lat",
+                    "type": "float64"
+                },
+                {
+                    "name": "species",
+                    "type": "string"
+                },
+                {
+                    "name": "latin_species",
+                    "type": "string"
+                },
+                {
+                    "name": "year_planted",
+                    "type": "uint16"
+                },
+                {
+                    "name": "diameter_canopy",
+                    "type": "float32"
+                },
+                {
+                    "name": "dbh",
+                    "type": "float32"
+                },
+                {
+                    "name": "height",
+                    "type": "float32"
+                },
+                {
+                    "name": "biomass",
+                    "type": "float32"
+                }
+            ]
+        },
+        {
+            "name": "profile",
+            "base": "",
+            "fields": [
+                {
+                    "name": "username",
+                    "type": "name"
+                },
+                {
+                    "name": "email_id",
+                    "type": "string"
+                },
+                {
+                    "name": "password_hash",
+                    "type": "checksum256"
+                },
+                {
+                    "name": "is_logged_in",
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "name": "signup",
+            "base": "",
+            "fields": [
+                {
+                    "name": "username",
+                    "type": "name"
+                },
+                {
+                    "name": "email_id",
+                    "type": "string"
+                },
+                {
+                    "name": "password_hash",
+                    "type": "checksum256"
+                }
+            ]
+        },
+        {
+            "name": "userentry",
+            "base": "",
+            "fields": [
+                {
+                    "name": "username",
+                    "type": "name"
+                },
+                {
+                    "name": "is_checked_in",
+                    "type": "bool"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "addparkdata",
+            "type": "addparkdata",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "delparktree",
+            "type": "delparktree",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "deluser",
+            "type": "deluser",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "entrexitpark",
+            "type": "entrexitpark",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "login",
+            "type": "login",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "logout",
+            "type": "logout",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "signup",
+            "type": "signup",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "fund",
+            "type": "fund",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "parkinfo",
+            "type": "parkinfo",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "profile",
+            "type": "profile",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "userentry",
+            "type": "userentry",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "kv_tables": {},
+    "ricardian_clauses": [],
+    "variants": [],
+    "action_results": []
+}

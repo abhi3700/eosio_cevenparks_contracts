@@ -1,0 +1,46 @@
+Wallet (locally)
+================
+name: cpeos
+password: "PW5KLoQRSzKrV4K7WEJxm3v98DRWvGdC26uhYTmKW3mFbte6x2CQ4"
+command: `cleos wallet unlock -n cpeos --password PW5KLoQRSzKrV4K7WEJxm3v98DRWvGdC26uhYTmKW3mFbte6x2CQ4`
+########################################################################
+Jungle Testnet
+************************************************************************************
+
+CEVEN.Park Contracts
+====================
+cevenparksio
+Private key: 5J88gBFpoJVSXwAanmbw544YGEKfcuhwnpAMZ3rE31jky7hC5cd
+Public key: EOS7xbjgF8jeLqEoc6d1VAYaFAmZ4fC1xfEHe3bJL2wzJ9Gvk7qkQ
+-----------------------------------------------------------------
+
+Admins
+======
+cevenpadmin1
+Private key: 5JHECo6A6WSx3P5nz7oMk2XaGgRCdVCAr4w2sW9ZmtdhfNZbwKt
+Public key: EOS6pFwEMmY9TomDa1pRDDyekBpxzd2Ybs48L6RdPwgwZwq7oyeA1
+
+
+Users
+==================
+cpusr1111111
+Private key: 5KiSCNU7cHdN6KNpqYxfqZ1b5NdW5QX8SVL5Z4Rm9juNHxEHMc4
+Public key: EOS8PtG3GoV9tzrpc23sP7pm57BTNTvFhpWrnf68UwWhUjGtKf6ed
+-----------------------------------------------------------------
+cpusr1111112
+Private key: 5JzcFP8pDuehv2ftusvSJZ4a2SLKp1vYAR5TTtuc9yM2ZSTmYnA
+Public key: EOS5R3gwf2QypmXhmm7sZE1fCsyQvsGsiCLrZZz24BE4YBMC9YzqU
+-----------------------------------------------------------------
+cpusr1111113
+Private key: 5JbXkminrEGCeXGCt7BN7Wpf7wKQDLCfD3WppMKX1AfwJhofi7g
+Public key: EOS7VKsSGtZjH6NzTMhw7fwuJjNG4i9WG38WFYZvegztHA87M8uBX
+-------------------------------------------------------------
+cpusr1111114
+Private key: 5KMe5RhvEjeK95BAEg2pyEgEFXqEzhh2M1tnekkzHfXCoaXotvw
+Public key: EOS8E5R6oZdLsxSTQzjRg1WKtCG7e1BLjD19UQw1EcESL19wjJD4k
+-------------------------------------------------------------
+cpusr1111115
+Private key: 5KkKaMfee8HitAp8M4v9vZyT49L6ScQNULGccKeGrH7oQ1xdVhH
+Public key: EOS84LMpK5aghbp95fVwhUYpDZDbFZ2brbZsxPFVqF1LxedxAmBEj
+-------------------------------------------------------------
+
